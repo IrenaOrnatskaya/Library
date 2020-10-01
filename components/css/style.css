@@ -50,8 +50,8 @@ table {
 }
 /* general styles */
 body {	
-	background: #ffffff;
-	font: 16px Helvetica, Arial, sans-serif;
+    background-color: #eff2f8;
+    font: 16px Helvetica, Arial, sans-serif;
 	line-height: 1.31;
 	min-width: 1024px;
 	max-width: 100%;
@@ -80,7 +80,7 @@ body {
 	min-height: 100%;
 }
 .nav-list {
-	display: inline-flex;
+	display: flex;
 	padding: 24px 121px;
 }
 .nav-list li {
@@ -99,15 +99,8 @@ body {
 	color: #6a75ca;
 	transition: 1s;
 }
-.wrapper {
-	display: flex;
-    flex-flow: column;
-    min-height: 100vh;
-    background-color: #eff2f8;
-}
 .main {
 	display: flex;
-	flex-grow: 1;
 }
 .sidebar {
 	background: #6a75ca;
@@ -151,7 +144,6 @@ body {
 }
 .content {
 	padding: 0 0 100px;
-	flex-grow: 1;
 }
 .title {
 	padding: 24px 48px;
