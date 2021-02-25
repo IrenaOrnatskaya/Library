@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dashboard</title>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <nav class="navi">
+                    <a class="logo" href="index.html">Mylib</a>
+                    <ul class="navi-list">
+                        <li class="navi-list-item">
+                            <a href="elements.html">Elements</a>
+                        </li>
+                        <li class="navi-list-item">
+                            <a href="components.html">Components</a>
+                        </li>
+                        <li class="navi-list-item">
+                            <a href="#">Layouts</a>
+                        </li>
+                        <li class="navi-list-item">
+                            <a href="#">Drafts</a>
+                        </li>
+                        <li class="navi-list-item">
+                            <a href="#">Documentation</a>
+                        </li>
+                    </ul>    
+                </nav>   
+            </header>
+            <main>
+                <div class="dash-content">
+                    <h1 class="dash-title">I always know where I keep my tricks</h1>
+                    <section class="dash-section">
+                    	<div class="filter">
+                            <div class="dash-section-small iris">
+                                <pre>
+git status
+
+git add .
+
+git commit -m
+“commit comments"
+
+git push</pre>
+                            </div>    
+                            <div class="dash-section-small">
+                                <pre>
+Выравнивание:
+
+.warpper (глобально)
+    margin: 0 auto;
+.container (разделы)
+    margin: 0 auto;
+
+Задаем глобально:
+
+*,
+*:before,
+*:after {
+box-sizing:
+      border-box;
+}</pre>
+                            </div>  
+                            <div class="dash-section-small">
+                                <pre>
+:before и :after
+Обязательно!
+  content: "";
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+
+display: 
+    inline-block;
+Обязательно!
+vertical-align: top;</pre>
+                            </div>
+                            <div class="dash-section-big iris">
+                                    <pre>
+https://fonts.google.com/specimen/Lato
+
++ select this style
+Embed (right menu)
+&lt;link
+href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" 
+rel="stylesheet"&lt;
+font-family: 'Lato', sans-serif;</pre>
+                            </div>
+                            <div class="dash-section-big">
+                                 <pre>
+Cвязка label и элемента через атрибут for и id (используем уникальный id)
+
+&lt;label for="female"&gt;женский&lt;/label&gt;
+
+&lt;input id="female" type="radio" name="gender"&gt;
+
+&lt;label for="male"&gt;мужской&lt;/label&gt;
+
+&lt;input id="male" type="radio" name="gender"&gt;</pre>
+                            </div>
+                        </div>    
+                    </section>
+                </div>
+            </main>        
+        </div>
+    </body>
+</html>
